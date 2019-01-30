@@ -9,6 +9,7 @@ Techniques and Concepts List
 ## App Design
 
 1. Two-stage logic checking (toss check, then broke check)
+1. function as unit of work (`feedCaterpillar`)
 
 ## Built-ins
 
@@ -33,6 +34,7 @@ Techniques and Concepts List
 ## Control Flow
 
 1. `if` and `else` conditionality
+1. for loop with `index`
 
 ## Functions
 
@@ -41,6 +43,15 @@ Techniques and Concepts List
 1. Define function parameter
 1. Call a function with a variable
 1. Call a function with two arguments
+
+## Lists (Arrays)
+
+1. access item by index: `array[index]`
+1. array of strings
+
+## Strings
+
+1. concatenate string
 
 ## Tools
 
@@ -57,6 +68,8 @@ Techniques and Concepts List
 
 1. `<title>`, `<h1>`
 1. `<button>`, `<section>`, `<img>`
+1. `<h2>`, `<span>`
+
 
 ### Attributes
 
@@ -64,18 +77,24 @@ Techniques and Concepts List
 1. `required` inputs
 1. numeric type input
 1. Disable button with `button.disabled = true`
+1. Set form control value `button.value="apple"`
 
 ## CSS 
 
 ### Selectors
 
 1. id (`#`), tag, and class (`.`)
+1. make dynamic css selector with string concatenation
 
 ### Styling
 
 1. Use `body` for global styling
 1. `font-family`, `background`, `color`, `text-align`, `font-size`, `font-weight`
 1. `visibility`, `margin`, `padding`, `margin: auto`, `min-height`
+1. `padding`, `border-style`, `cursor`, `line-height`, `background`
+1. `display: inline-block`, `height`, `width`
+1. negative margins: `margin-left: -12px;`
+1. `transform`, `transition`
 
 ## DOM 
 
@@ -85,6 +104,8 @@ Techniques and Concepts List
 1. add class `element.classList.add('class-to-add')`
 1. set text `element.textContent =`
 1. set property `image.src =`
+1. create new elements with `.createElement('tag')`
+1. add new element to existing element with `.appendChild(node)`
 
 ### Events
 
@@ -93,8 +114,9 @@ Techniques and Concepts List
 1. use `event` callback argument to prevent default behavior
 
 ### Traversal
-1. `document.getElementById('id')` matches HTML attribute `id="id"`
 
+1. `document.getElementById('id')` matches HTML attribute `id="id"`
+1. use css selector to get DOM elements via `document.querySelectorAll('.class')
 
 
 
